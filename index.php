@@ -1,5 +1,5 @@
 <?
-	//AQUI VA VITOR	
+	include "variables.php"	
 ?>
 <!DOCTYPE html>
 <html lang="en">
