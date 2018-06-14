@@ -1,0 +1,1241 @@
+* /* Eliminar todos los márgenes por defecto que trae el navegador */
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    background: #f7f9f9; /* Blanco Nieve */
+    margin-top: 70px;
+}
+
+.tituloUbuntu
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    color: black;
+}
+
+
+/*Estilos CSS Generales */
+.colorAmarillo
+{
+    background: #fec92b;
+}
+
+.bordeMercasist
+{
+    border: 2px solid #fec92b;
+    border-radius: 10px;
+}
+
+.grisTenue
+{
+    background: #696969;
+}
+
+.sombraGrisTenue
+{
+    box-shadow: 0px 0px 10px #292c2f;
+    border-radius: 10px;
+}
+
+.fondoGris
+{
+    background: #424949;
+}
+
+
+.botonMenu                /*Estilo CSS para el boton Ocultar / Mostrar el Menu*/
+{
+    color: #424949;
+}
+
+
+/* Estilos CSS para los elementos del Header (Encabezado de la Pagina) - Inicio */
+
+.header
+{
+    background: white;
+    /*box-shadow: 0px 2px 1px #1D1F21; /* Una sombra de color Gris para diferenciar el header del body de la página */
+    border-bottom: 1px solid #333333;
+    background: #E6E6E6;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.header_opciones
+{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: center;
+}
+
+.notificaciones_header
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.alertas_header
+{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: center;
+}
+
+.iconoAlerta
+{
+    padding: 0px 10px;
+    text-decoration: none;
+    color: #424949;
+}
+
+.iconoAlerta:hover
+{
+    text-decoration: none;
+    color: #fec92b;
+    cursor: pointer;
+}
+
+.detalles
+{
+    width: 250px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.detalles:hover
+{
+    text-decoration: none;
+}
+
+.bordeAlertas
+{
+    border: 0px solid white;
+    box-shadow: 0px 0px 10px #292c2f; /* Una sombra de color Gris para diferenciar el header del body de la página */
+    border-radius: 0px;
+}
+
+.bg-preguntas
+{
+    background: #008B8B;
+}
+
+.borde-preguntas
+{
+    border: 1px solid #008B8B;
+}
+
+.bg-ordenes
+{
+    background: #CC0000;
+}
+
+.color-ordenes
+{
+    color: #CC0000;
+}
+
+.bg-mensajes
+{
+    background: #27ae60;
+}
+
+.borde-mensajes
+{
+    border: 1px solid #27ae60;
+}
+
+.bg-reportes
+{
+    background: #0040FF;
+}
+
+.color-reportes
+{
+    color: #0040FF;
+}
+
+.bg-facturas
+{
+    background: #01DF01;
+}
+
+.color-facturas
+{
+    color: #01DF01;
+}
+
+.bg-envios
+{
+    background: #0B6138;
+}
+
+.color-envios
+{
+    color: #0B6138;
+}
+
+.bg-sucursales
+{
+    background: #8A4B08;
+}
+
+.color-sucursales
+{
+    color: #8A4B08;
+}
+
+.bg-soporte
+{
+    background: #FFA500;
+}
+
+.color-soporte
+{
+    color: #FFA500;
+}
+
+.bg-ayuda
+{
+    background: #FF5733;
+}
+
+.color-ayuda
+{
+    color: #FF5733;
+}
+
+.bg-cuenta
+{
+    background: #009966;
+}
+
+.color-cuenta
+{
+    color: #009966;
+}
+
+.alerta
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7rem;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 1px 5px;
+    position: relative;
+    top: -9px;
+    left: -4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tituloAlerta
+{
+    position: relative;
+    top: -8px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.tipoNotificacion
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.infoNotificacion
+{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    color: black;
+    text-decoration: none;
+}
+
+.cantidadNotificacion
+{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.autorNotificacion
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: black;
+    margin-left: 10px;   
+}
+
+.tiempoNotificacion
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    float: right;
+}
+
+.contenidoNotificacion
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: black;
+}
+
+.totalNotificacion
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.tituloCuenta
+{
+    position: relative;
+    top: -8px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: black;
+    border: 1px solid #009966;
+    background: #009966;
+    text-align: center;
+    width: 240px;
+}
+
+/* Estilos CSS para los elementos del Header (Encabezado de la Pagina) - Fin */
+
+
+/* Efectos de Transicion para Ocultar / Mostrar el Sidebar - Inicio */
+#wrapper 
+{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+  padding-left: 300px;
+}
+
+#sidebar-wrapper 
+{
+    z-index: 1000;
+    position: fixed;
+    left: 300px;
+    width: 0;
+    margin-left: -300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #e8e8e8;
+    border-right: 1px solid #333333;
+    /*box-shadow: 0px 0px 5px #333333; /* Una sombra de color Gris para diferenciar el header del body de la página*/
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper
+{
+    width: 300px;
+}
+
+#page-content-wrapper
+{
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper
+{
+    position: absolute;
+    margin-right: -300px;
+}
+
+/* Efectos de Transicion para Ocultar / Mostrar el Sidebar - Fin */
+
+.sidebar-nav
+{
+    top: 45px;
+    height: calc(100% - 45px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: center;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    border-left: 1px solid #333333;
+}
+
+.mitadSidebar
+{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.sidebar-nav h5
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    color: #1d1f21;
+}
+
+.Opcionppal
+{
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.tituloPpal
+{
+    align-self: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #1d1f21;
+    font-size: 1.0rem;
+    margin-left: 5px;
+}
+
+.tituloPpal:hover
+{
+    color: #fec92b;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.0rem;
+    cursor: pointer;
+}
+
+.alertaNuevoMenu
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.6rem;
+    background: #2E8B57; /* Verde Mar */
+    color: whitesmoke;
+    padding: 1px 5px;
+    margin-right: 25px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #1d1f21;
+}
+
+.alertaNuevoSubmenu
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.6rem;
+    background: #2E8B57; /* Verde Mar */
+    color: whitesmoke;
+    padding: 1px 5px;
+    margin-right: 15px;
+    border-radius: 5px;
+    float: right;
+    box-shadow: 1px 1px 1px #1d1f21; 
+}
+
+.flechaAbajo
+{
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+    color: #1d1f21;
+    font-size: 1.0rem;
+}
+
+.flechaAbajo:hover
+{
+    color: #fec92b;
+}
+
+span.submenuSidebar
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    float: left;
+    margin-left: 15px;
+    color: #1d1f21;
+}
+
+span.submenuSidebar:hover
+{
+    color: #fec92b;
+}
+
+span.alertaSubmenu
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7rem;
+    padding: 1px 5px;
+    float: right;
+    margin-right: 5px;
+    font-weight: bold;
+    color: red;
+    border-radius: 5px;
+}
+
+.sidebar-footer
+{
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background: #1d1f21;
+    text-decoration: none;
+}
+
+.cuentaML
+{
+    align-self: center;
+    flex-basis: 300px;
+}
+
+.opcionesSidebarFooter
+{
+    align-self: center;
+}
+
+.sidebarFooter /* Estilos CSS para los enlaces */
+{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.sidebarFooter:hover
+{
+    color: #fec92b;
+    text-decoration: none;
+}
+
+/***** Estilos CSS para el titulo de las Ordenes (Inicio) *****/
+.encab-Pagina
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.tituloPagina
+{
+    align-self: center;
+    flex: 0 1 auto;
+}
+
+.opcionesPagina
+{
+    align-self: center;
+    flex: 0 1 auto;
+}
+/***** Estilos CSS para el titulo de las Ordenes (Inicio) *****/
+
+
+/***** Estilos CSS para las Barras de busqueda (Inicio) *****/
+.barra
+{
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.barraIzquierda
+{
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
+    color: #1D1F21;
+    flex: 0 1 5%;
+}
+
+.barraDerecha
+{
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
+    color: #1D1F21;
+    flex: 0 1 40%;
+}
+
+.filtroOrdenes
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    width: 240px;
+    position: relative;
+    top: -8px;
+}
+
+/***** Estilos CSS para las Barras de busqueda (Fin) *****/
+
+/**** Barra para las Ordenes ****/
+.bordeNaranja
+{
+    border: 1px solid white;
+    box-shadow: 3px 2px 1px #ff8c00;
+}
+
+.btn-orden
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    background: #3CB371;
+    box-shadow: 3px 2px 1px #3CB371;
+}
+
+.btn-orden:hover
+{
+    border: 1px solid #3cB371;
+}
+
+.cuadroBusqueda
+{
+    border: 1px solid #4682B4;
+    border-radius: 5px;
+    box-shadow: 3px 2px 1px #1E90FF;
+}
+
+.botonBusqueda
+{
+    border: 1px solid #4682B4;
+    background: #1E90FF;
+    color: white;
+    box-shadow: 3px 2px 1px #1E90FF;
+}
+
+.ordenAbierta
+{
+    border: 1px solid #f1c40f;
+}
+
+.bg-ordenAbierta
+{
+    background: #f1c40f;
+}
+
+.Orden
+{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.no-orden
+{
+    font-family: 'Ubuntu', sans-serif;
+    align-self: center;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-left: 5px;
+    order: 0;
+    flex: 0 1 25%;
+}
+
+.status-orden
+{
+    font-family: 'Ubuntu', sans-serif;
+    align-self: center;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-left: 25px;
+    flex: 0 1 71%;
+}
+
+.acciones-orden
+{
+    font-family: 'Ubuntu', sans-serif;
+    align-self: center;
+    color: whitesmoke;
+    font-size: 0.9rem;
+    margin-left: 5px;
+    flex: 0 1 4%;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.opciones-acciones
+{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 0.7rem;
+}
+
+.ventaML
+{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.etiqueta-venta
+{
+    font-family: 'Ubuntu', sans-serif;
+    align-self: center;
+    color: black;
+    font-size: 0.7rem;
+    order: 0;
+    flex: 0 1 35%;
+}
+
+.valores-venta
+{
+    font-family: 'Ubuntu', sans-serif;
+    align-self: center;
+    color: black;
+    font-weight: bold;
+    font-size: 0.7rem;
+    flex: 0 1 65%;
+}
+
+.datos-orden
+{
+    background: white;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.datos-venta
+{
+    font-family: 'Roboto', sans-serif;
+    align-self: flex-start;
+    color: black;
+    font-size: 0.6rem;
+    margin-left: 5px;
+    flex: 0 1 25%;
+}
+
+.datos-comprador
+{
+    font-family: 'Roboto', sans-serif;
+    align-self: flex-start;
+    color: black;
+    font-size: 0.7rem;
+    flex: 0 1 75%;
+    border-left: 1px solid grey;
+}
+
+.perfil-comprador
+{
+    margin-left: 10px;
+    text-decoration: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.perfil-comprador:hover
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menuAcciones-Abiertas
+{
+    position: relative;
+    top: -8px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+    border: 1px solid #F1C40F;
+    background: #f1c40f;
+    text-align: center;
+    width: 240px;
+}
+
+.historialPreguntas
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 5px; 
+}
+
+.pregunta-tituloArticulo
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.9rem;
+    color: whitesmoke;
+    text-align: justify;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.pregunta-precioArticulo
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    color: red;
+    text-align: justify;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.preguntaContenido
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 10px;
+}
+
+.pregunta-Comprador
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    color: green;
+    text-align: justify;
+    order: 0;
+    flex: 0 1 80%;
+    align-self: flex-start;
+    padding-right: 25px;
+}
+
+.respuesta-Vendedor
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    color: blue;
+    text-align: justify;
+    order: 0;
+    flex: 0 1 80%;
+    align-self: flex-end;
+    padding-left: 25px;
+}
+
+
+.articulo
+{
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 10px;
+}
+
+.imagen-articulo
+{
+    margin-left: 5px;
+    flex: 0 1 5%;
+}
+
+.descripcion-articulo
+{
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
+    color: black;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-left: 5px;
+    flex: 0 1 83%;
+}
+
+.leyenda-articulo
+{
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
+    font-size: 0.6rem;
+    font-style: italic;
+}
+
+.cantidad-articulo
+{
+    font-family: 'Ubuntu', sans-serif;
+    align-self: center;
+    color: black;
+    font-size: 0.7rem;
+    font-weight: bold;
+    flex: 0 1 10%;
+    text-align: right;
+}
+
+.precio-articulo
+{
+    font-family: 'Ubuntu', sans-serif;
+    align-self: center;
+    color: black;
+    font-size: 0.7rem;
+    font-weight: bold;
+    flex: 0 1 20%;
+    text-align: right;
+}
+
+.opciones-orden
+{
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 10px;
+}
+
+.icono-orden
+{
+    font-family: 'Ubuntu', sans-serif;
+    align-self: center;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 5px;
+    flex: 0 1 auto;
+    padding: 0px 10px;
+}
+
+.datos-OrdenAbierta
+{
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
+    color: black;
+    font-size: 0.7rem;
+    text-decoration: none;
+    
+}
+
+.datos-OrdenAbierta:hover
+{
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
+    color: #f1c40f;
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+
+.iconos-OrdenAbierta
+{
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
+    color: black;
+    font-size: 1.0rem;
+    text-decoration: none;
+}
+
+.iconos-OrdenAbierta:hover
+{
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
+    color: #f1c40f;
+    font-size: 1.0rem;
+    text-decoration: none;
+}
+
+.opciones-mensajes
+{
+    font-family: 'Ubuntu', sans-serif;
+    align-self: center;
+    font-weight: bold;
+    color: white;
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+
+.opciones-mensajes:hover
+{
+    font-family: 'Ubuntu', sans-serif;
+    align-self: center;
+    color: white;
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+
+.opciones-mensajes:focus
+{
+    font-family: 'Ubuntu', sans-serif;
+    align-self: center;
+    font-weight: bold;
+    color: #2980b9;
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+    
+
+.mensaje
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.autorMensaje
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    color: whitesmoke;
+    align-self: center;
+    text-align: center;
+    flex: 0 1 auto;
+}
+
+.tiempoMensaje
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.6rem;
+    color: antiquewhite;
+    font-style: italic;
+    align-self: center;
+    text-align: center;
+    flex: 0 1 auto;
+}
+
+.etiqueta-mensaje
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    vertical-align: middle;    
+}
+
+.comentariosOrden
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.fechaComentario
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    color: black;
+    align-self: flex-start;
+    text-align: justify;
+    flex: 0 1 auto;
+}
+
+.descripcionComentario
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.6rem;
+    color: black;
+    align-self: flex-start;
+    text-align: justify;
+    flex: 0 1 auto;
+}
+
+
+
+/********************* Comportamiento para vista vertical desde un celular *********************/
+@media screen and (max-width: 480px) 
+{
+    
+    body
+    {
+        padding-bottom: 300px;
+        margin-top: 120px;
+    }
+    
+    .header
+    {
+        background: white;
+        box-shadow: 0px 3px 2px #424949; /* Una sombra de color Gris para diferenciar el header del body de la página */
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+    }   
+    
+    .header_opciones
+    {
+        order: 0;
+        flex: 0 1 auto;
+        align-self: center;
+        padding-bottom: 5px; 
+    }
+
+    
+    #wrapper
+    {
+        margin-top: 100px;
+        padding-left: 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    
+    #wrapper.toggled 
+    {
+        padding-left: 300px;
+    }
+
+    #sidebar-wrapper
+    {
+        z-index: 1000;
+        position: fixed;
+        left: 300px;
+        width: 0;
+        height: 100%;
+        margin-left: -300px;
+        overflow-y: auto;
+        background:  #f8f9f9;
+        box-shadow: 0px 0px 10px #292c2f; /* Una sombra de color Gris para diferenciar el header del body de la página */
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    .sidebar-nav
+    {
+        position: absolute;
+        top: 70px;
+        width: 300px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .barra
+    {
+        height: 22px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: stretch;
+        margin-bottom: 15px;
+    }
+
+    .barraIzquierda
+    {
+        align-self: center;
+        font-family: 'Ubuntu', sans-serif;
+        color: #1D1F21;
+        font-size: 1.0rem;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+
+    .barraDerecha
+    {
+        align-self: stretch;
+        font-family: 'Roboto', sans-serif;
+        color: #1D1F21;
+        font-size: 1.0rem;
+        flex-basis: 350px;
+    }
+    
+    .pc-tablet
+    {
+        display: none;
+    }
+    
+}
+
+/********************* Comportamiento para vista vertical desde un celular *********************/
+@media screen and (min-width: 481px) and (max-width: 540px) 
+{
+    
+    
+    
+}
+
+
+/********************* Comportamiento para vista vertical desde una Tableta *********************/
+@media screen and (min-width: 541px) and (max-width: 767px) 
+{
+    
+   
+}
+
+
+
+
+
+@media(min-width:768px) {
+  #wrapper {
+    padding-left: 0;
+  }
+  #wrapper.toggled {
+    padding-left: 300px;
+  }
+  #sidebar-wrapper {
+    width: 0;
+  }
+  #wrapper.toggled #sidebar-wrapper {
+    width: 300px;
+  }
+  #page-content-wrapper {
+    padding: 20px;
+    position: relative;
+  }
+  #wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: 0;
+  }
+}

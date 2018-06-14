@@ -1,0 +1,750 @@
+* /* Eliminar todos los márgenes por defecto que trae el navegador */
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    background: white; /* Blanco Nieve */
+    margin-top: 40px;
+}
+
+.tituloUbuntu
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1rem;
+    color: black;
+}
+
+
+/* Estilos CSS para los elementos del Header (Encabezado de la Pagina) - Inicio */
+
+.header
+{
+    box-shadow: 0px 2px 1px #1D1F21; /* Una sombra de color Gris para diferenciar el header del body de la página */ 
+    border-bottom: 1px solid #333333;
+    background: white;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.header_opciones
+{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: center;
+}
+
+.notificaciones_header
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.icono_alertas
+{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: center;
+}
+
+.alertas_header
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: center;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.mp
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.info_header
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+
+}
+
+.tipo_infoHeader
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.7rem;
+    text-align: justify;
+    font-weight: bold;
+    order: 0;
+    flex: 0 1 25%;
+    align-self: center;
+}
+
+.descripcion_infoHeader
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.7rem;
+    text-align: justify;
+    color: #009999;
+    font-weight: bold;
+    order: 0;
+    flex: 0 1 75%;
+    align-self: center;
+}
+
+.info_ubicacion
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    padding: 5px 0px;
+
+}
+
+.titulo_ubicacion
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.7rem;
+    text-align: justify;
+    font-weight: bold;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: flex-start;
+}
+
+.descripcion_ubicacion
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.7rem;
+    text-align: justify;
+    color: #009999;
+    font-weight: bold;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: flex-start;
+}
+
+.centro
+{
+    max-width: 800px;
+}
+
+.contenido_reporte
+{
+    margin-top: 70px;
+    padding-bottom: 50px;
+}
+
+footer
+{
+    height: 50px;
+    background: yellow;
+}
+
+.bg-reporte
+{
+    background: #009999;
+}
+
+.borde-reporte
+{
+    border: 2px solid #009999;
+}
+
+.enlaces_header
+{
+    color: black;
+    text-decoration: none;
+}
+
+.enlaces-header:focus
+{
+    color: red;    
+    text-decoration: none;
+}
+
+.enlaceML-Articulo
+{
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.enlaceML-Articulo:hover
+{
+    color: #fec92b;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.EncabezadotituloArticulo
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+    background:  #eaeded;
+    color: black;
+    padding-top: 1px;
+    border-top: 1px solid #3333;
+    border-bottom: 1px solid #3333;
+}
+
+.listaArticulos-Orden
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.seleccionArticulo
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+    padding-top: 1px;
+    order: 0;
+    flex: 0 1 5%;
+    align-self: center;
+}
+
+.imgArticulo
+{
+    padding-top: 1px;
+    order: 0;
+    flex: 0 1 10%;
+    align-self: center;
+    padding-left: 5px;
+}
+
+.cantArticulo
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 1px;
+    order: 0;
+    flex: 0 1 10%;
+    align-self: center;
+    padding: 1px 2px; 
+}
+
+.descripcionArticulo
+{
+    padding-top: 1px;
+    order: 0;
+    flex: 0 1 75%;
+    align-self: center;
+}
+
+.iconos-reporte
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+.opciones-reportePago
+{
+    padding: 10px;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: center;
+}
+
+.btn-reporte
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.7rem;
+    text-align: center;
+    color: white;
+    box-shadow: 3px 2px 1px grey; 
+    float: right;
+}
+
+.encabezado-Carrito
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+    
+}
+
+.resultados-Articulos
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.8rem;
+    text-align: left;
+    order: 0;
+    flex: 0 1 40%;
+    align-self: center;
+    color: black;
+}
+
+.buscadorArticulos
+{
+    order: 0;
+    flex: 0 1 50%;
+    align-self: center;
+}
+
+.botonBusqueda
+{
+    background: #009999;
+}
+
+.datos-Orden
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.tipo-datosOrden
+{
+    font-family: 'Quicksand',sans-serif;
+    font-size: 0.9rem;
+    color: black;
+    font-weight: bold;
+    text-align: justify;
+    order: 0;
+    align-self: center;
+    flex: 0 1 15%;
+    padding: 3px 0px;
+}
+
+.descripcion-datosOrden
+{
+    font-family: 'Quicksand',sans-serif;
+    font-size: 0.9rem;
+    color: black;
+    text-align: justify;
+    order: 0;
+    align-self: center;
+    flex: 0 1 85%;
+}
+
+.articulosVendedor
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+    padding: 5px 0px;
+}
+
+.selector-Articulo
+{
+    text-align: center;
+    order: 0;
+    align-self: center;
+    flex: 0 1 5%;
+}
+
+.img-articulo
+{
+    text-align: center;
+    order: 0;
+    align-self: center;
+    flex: 0 1 5%;
+    padding-left: 5px;
+}
+
+.titulo-articulo
+{
+    order: 0;
+    flex: 0 1 90%;
+}
+
+.descripcion-precio
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 5px 0px;
+}
+
+.descripcionArt
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.9rem;
+    text-align: justify;
+    order: 0;
+    align-self: flex-start;
+    flex: 0 1 100%;
+    padding-left: 5px;
+}
+
+.precioArt
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: right;
+    order: 0;
+    align-self: flex-end;
+    flex: 0 1 100%;
+    padding-right: 10px;
+}
+
+.politicas
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.7rem;
+    text-align: justify;
+    padding-top: 10px;    
+}
+
+.opciones-entrega
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    color: black;
+}
+
+.opciones-entrega:hover
+{
+    color: #fec92b;
+}
+
+.opciones-entrega:enabled
+{
+    color: darkblue;
+}
+
+.nomb_encomienda
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+.obs_encomienda
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.7rem;
+    text-align: justify;
+    color: black;
+    padding: 5px;
+}
+
+.datos-sucursales
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn-siguiente
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.0rem;
+    text-align: center;
+    color: darkgreen;
+    /*box-shadow: 3px 2px 1px grey;*/
+    float: right;
+    border: 2px solid darkgreen;
+    background: white;
+}
+
+.btn-siguiente:hover
+{
+    color: white;
+    background: darkgreen;
+}
+
+.separacion
+{
+    padding: 10px;
+}
+
+.publicidad_footer
+{
+    font-family: 'Quicksand',sans-serif;
+    font-size: 0.6rem;
+    color: black;
+    text-align: center;
+    height: 5px;
+    position: relative;
+    bottom: 0;
+}
+
+
+.etiqueta-reporte
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+
+
+/********************* Comportamiento para vista vertical desde un celular *********************/
+@media screen and (max-width: 480px) 
+{
+    * /* Eliminar todos los márgenes por defecto que trae el navegador */
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    body
+    {
+        padding-bottom: 300px;
+        margin-top: 120px;
+        height: 2000px;
+    }
+    
+    .header
+    {
+        background: white;
+        box-shadow: 0px 3px 2px #424949; /* Una sombra de color Gris para diferenciar el header del body de la página */
+        height: 95px;
+        display: flex;
+        flex-direction: column;
+    }   
+    
+    .header_opciones
+    {
+        order: 0;
+        flex: 0 1 auto;
+        align-self: center;
+        padding-bottom: 5px; 
+    }
+
+    .pc-tablet
+    {
+        display: none;
+    }
+    
+    .info_header
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        padding-top: 5px;
+    }
+    
+    .tipo_infoHeader
+    {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .descripcion_infoHeader
+    {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    
+    .politicas
+    {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 0.8rem;
+        text-align: justify;
+        padding-top: 10px;
+    }
+    
+    .listaArticulos-Orden
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+    .seleccionArticulo
+    {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 0.9rem;
+        text-align: center;
+        padding-top: 1px;
+        order: 0;
+        flex: 0 1 8%;
+        align-self: center;
+    }
+
+    .cantArticulo
+    {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 0.8rem;
+        text-align: center;
+        order: 0;
+        flex: 0 1 20%;
+        align-self: center;
+        padding: 1px 1px; 
+    }
+
+    .descripcionArticulo
+    {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 0.8rem;
+        text-align: justify;
+        padding-top: 1px;
+        order: 0;
+        flex: 0 1 100%;
+        align-self: center;
+    }
+
+    .iconos-reporte
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+    }
+
+    .datos-Orden
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .tipo-datosOrden
+    {
+        text-align: center;
+        align-self: center;
+        flex: 0 1 auto;
+        padding: 3px 0px;
+    }
+
+    .descripcion-datosOrden
+    {
+        text-align: center;
+        order: 0;
+        align-self: center;
+        flex: 0 1 auto;
+    }
+
+    .opciones-reportePago
+    {
+        padding: 5px;
+        order: 0;
+        flex: 0 1 auto;
+        align-self: center;
+    }
+
+    .btn-reporte
+    {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 0.6rem;
+        text-align: center;
+        color: white;
+        box-shadow: 3px 2px 1px grey;   
+    }
+    
+    .btn-siguiente
+    {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1.0rem;
+        text-align: center;
+        color: darkgreen;
+        box-shadow: 3px 2px 1px grey;
+        width: 100%;
+    }
+
+    .btn-siguiente:focus
+    {
+        color: white;
+        background: darkgreen;
+    }
+}
+
+/********************* Comportamiento para vista vertical desde un celular *********************/
+@media screen and (min-width: 481px) and (max-width: 540px) 
+{
+    
+    
+    
+}
+
+
+/********************* Comportamiento para vista vertical desde una Tableta *********************/
+@media screen and (min-width: 541px) and (max-width: 767px) 
+{
+    
+   
+}
+
+
+
+
+
+@media(min-width:768px) {
+  #wrapper {
+    padding-left: 0;
+  }
+  #wrapper.toggled {
+    padding-left: 300px;
+  }
+  #sidebar-wrapper {
+    width: 0;
+  }
+  #wrapper.toggled #sidebar-wrapper {
+    width: 300px;
+  }
+  #page-content-wrapper {
+    padding: 20px;
+    position: relative;
+  }
+  #wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: 0;
+  }
+}
