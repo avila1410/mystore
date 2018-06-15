@@ -31,7 +31,7 @@
 </head>
 
 <body>
-    <?php include ("connect.php"); ?>
+    
        
     <!-- Encabezado de la Pagina --> 
     <?php include ("header_reporte.php"); ?>
