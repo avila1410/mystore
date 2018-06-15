@@ -222,7 +222,7 @@ footer
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content:flex-start;
     align-items: flex-start;
     align-content: flex-start;
     padding-top: 1px;
@@ -235,7 +235,7 @@ footer
     text-align: center;
     order: 0;
     flex: 0 1 5%;
-    align-self: center;
+    align-self: flex-start;
 }
 
 .cantArticulo
@@ -246,21 +246,21 @@ footer
     padding-top: 1px;
     order: 0;
     flex: 0 1 10%;
-    align-self: center; 
+    align-self: flex-start; 
 }
 
 .imgArticulo
 {
     order: 0;
     flex: 0 1 10%;
-    align-self: center;
+    align-self: flex-start;
 }
 
 .descripcionArticulo
 {
     order: 0;
     flex: 0 1 auto;
-    align-self: center;
+    align-self: flex-start;
 }
 
 .descripcion-precio
