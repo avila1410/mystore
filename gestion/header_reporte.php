@@ -3,7 +3,7 @@
 echo "<section class='container-fluid header fixed-top'>";
     echo "<div class='header_opciones py-2'>"; //Apertura de la 1ra. Caja header_opciones
         /*************** LOGO DEL VENDEDOR (INICIO) ****************/
-        echo "<img class='ml-3' src='img/logo_menu.png'>";
+        echo "<img class='ml-3' src='../img/logo_menu.png'>";
         /*************** LOGO DEL VENDEDOR (FIN) ****************/
     echo "</div>"; //Cierre de la 1ra. Caja header_opciones
 

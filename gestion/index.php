@@ -15,15 +15,15 @@
     <title>Reporte de Pago</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/reporte.css" rel="stylesheet">
+    <link href="../css/reporte.css" rel="stylesheet">
     
     <!-- ------------ Iconos Font Awesone ------------ -->
-    <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="font-awesome-5.0.6/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="font-awesome-5.0.13/web-fonts-with-css/css/fontawesome-all.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../font-awesome-5.0.6/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="../font-awesome-5.0.13/web-fonts-with-css/css/fontawesome-all.css">
         
    <!-- ------------ Fuentes disponibles de Google Fonts ------------ -->    
    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Quicksand|Ubuntu" rel="stylesheet"> -->
