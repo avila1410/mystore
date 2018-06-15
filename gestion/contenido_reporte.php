@@ -91,7 +91,7 @@ echo "<div class='container centro'>";
                        echo "<div class='descripcion-precio'>";
                             //Descripción del Artículo (Inicio)
                             echo "<div class='descripcionArt'>";
-                                echo "<a href=".$articulos[$k]['link_ml']." class='enlaceML-Articulo'>";
+                                echo "<a href=".$articulos[$k]['link_ml']." class='enlaceML-Articulo' target='_blank'>";
                                     echo $articulos[$k]['articulo_titulo'];
                                 echo "</a>"; 
                             echo "</div>";
