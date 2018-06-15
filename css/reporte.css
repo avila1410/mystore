@@ -243,8 +243,7 @@ footer
     padding-top: 1px;
     order: 0;
     flex: 0 1 10%;
-    align-self: center;
-    padding-left: 5px;    
+    align-self: center;   
 }
 
 .cantArticulo
@@ -417,7 +416,6 @@ footer
     order: 0;
     align-self: flex-start;
     flex: 0 1 100%;
-    /*padding-left: 5px;*/
 }
 
 .precioArt

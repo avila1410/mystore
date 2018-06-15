@@ -81,8 +81,8 @@ echo "<div class='container centro'>";
                     //Cantidad del Artículo (Fin)            
                 
                     //Imagen del Artículo (Inicio)
-                    echo "<div class='imgArticulo'>";
-                        echo "<img src=".$articulos[$k]['img_url']." height='45' width='45' class='rounded'>";
+                    echo "<div class='imgArticulo ml-2'>";
+                        echo "<img src=".$articulos[$k]['img_url']." height='45' width='45'>";
                     echo "</div>";
                     //Imagen del Artículo (Fin)
 
@@ -406,8 +406,6 @@ echo "<div class='container centro'>";
                                 echo "</div>";
                             echo "</div>";             
                         echo "</div>";
-
-
                      echo "</form>";
                 echo "</div>";
                 //Retiro en Tienda (Fin)
