@@ -82,7 +82,7 @@ echo "<div class='container centro'>";
 
                     //Imagen del Artículo (Inicio)
                     echo "<div class='imgArticulo'>";
-                        echo $articulos[$k]['img_url'];
+                        echo "<img src=".$articulos[$k]['img_url'].">";
                     echo "</div>";
                     //Imagen del Artículo (Fin)
 
@@ -91,14 +91,14 @@ echo "<div class='container centro'>";
                             //Descripción del Artículo (Inicio)
                             echo "<div class='descripcionArt'>";
                                 echo "<a href='#' class='enlaceML-Articulo'>";
-                                    echo $articulo[$i]['articulo-titulo'];
+                                    echo $articulos[$k]['articulo-titulo'];
                                 echo "</a>"; 
                             echo "</div>";
                             //Descripción del Artículo (Fin)
 
                             //Precio del Artículo (Inicio)
                             echo "<div class='precioArt'> Precio: ";
-                                echo $articulos[$i]['precio'];
+                                echo $articulos[$k]['precio'];
                             echo "</div>";
                             //Precio del Artículo (Fin)
                         echo "</div>";
