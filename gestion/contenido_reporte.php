@@ -47,7 +47,7 @@ echo "<div class='container centro'>";
                     echo "</div>";
                     echo "<div class='descripcion-datosOrden'>";
                         echo "<span class='text-capitalize'>".$comprador_nombre."</span>";
-                        echo "<span class='text-uppercase'> (".comprador_nick.")</span>";
+                        echo "<span class='text-uppercase'> (".$comprador_nick.")</span>";
                     echo "</div>";
                 echo "</div>";
                 //Datos del Comprador (Fin)
