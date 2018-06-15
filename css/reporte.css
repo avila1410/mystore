@@ -225,6 +225,7 @@ footer
     justify-content: space-between;
     align-items: flex-start;
     align-content: flex-start;
+    padding-top: 1px;
 }
 
 .seleccionArticulo
@@ -232,18 +233,9 @@ footer
     font-family: 'Ubuntu', sans-serif;
     font-size: 0.9rem;
     text-align: center;
-    padding-top: 1px;
     order: 0;
     flex: 0 1 5%;
     align-self: center;
-}
-
-.imgArticulo
-{
-    padding-top: 1px;
-    order: 0;
-    flex: 0 1 10%;
-    align-self: center;   
 }
 
 .cantArticulo
@@ -254,16 +246,52 @@ footer
     padding-top: 1px;
     order: 0;
     flex: 0 1 10%;
+    align-self: center; 
+}
+
+.imgArticulo
+{
+    order: 0;
+    flex: 0 1 10%;
     align-self: center;
-    padding: 1px 2px; 
 }
 
 .descripcionArticulo
 {
-    padding-top: 1px;
     order: 0;
-    flex: 0 1 75%;
+    flex: 0 1 auto;
     align-self: center;
+}
+
+.descripcion-precio
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.descripcionArt
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.9rem;
+    text-align: justify;
+    order: 0;
+    align-self: flex-start;
+    flex: 0 1 100%;
+}
+
+.precioArt
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: justify;
+    order: 0;
+    align-self: flex-start;
+    flex: 0 1 100%;
 }
 
 .iconos-reporte
@@ -303,7 +331,6 @@ footer
     align-items: center;
     align-content: center;
     padding: 5px;
-    
 }
 
 .resultados-Articulos
@@ -395,38 +422,6 @@ footer
 {
     order: 0;
     flex: 0 1 90%;
-}
-
-.descripcion-precio
-{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
-    padding: 5px 0px;
-}
-
-.descripcionArt
-{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 0.9rem;
-    text-align: justify;
-    order: 0;
-    align-self: flex-start;
-    flex: 0 1 100%;
-}
-
-.precioArt
-{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 0.8rem;
-    font-weight: bold;
-    text-align: right;
-    order: 0;
-    align-self: flex-start;
-    flex: 0 1 100%;
 }
 
 .politicas
