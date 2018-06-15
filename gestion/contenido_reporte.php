@@ -91,12 +91,23 @@ echo "<div class='container centro'>";
                        echo "<div class='descripcion-precio'>";
                             //Descripción del Artículo (Inicio)
                             echo "<div class='descripcionArt'>";
-                                echo "<a href='#' class='enlaceML-Articulo'>";
+                                echo "<a href=".$articulos[$k]['link_ml']." class='enlaceML-Articulo'>";
                                     echo $articulos[$k]['articulo_titulo'];
                                 echo "</a>"; 
                             echo "</div>";
                             //Descripción del Artículo (Fin)
 
+                            //Caracteristicas Especiales del Producto (Inicio)
+                            if (empty($articulos[$k]['tipo']))
+                            {
+                                echo "No mostrar nada";
+                            }
+                            else
+                            {
+                                echo "Hay un valor en la variable";
+                            }
+                            //Caracteristicas Especiales del Producto (Fin)
+                
                             //Precio del Artículo (Inicio)
                             echo "<div class='precioArt'> Precio: ";
                                 echo $articulos[$k]['precio'];
