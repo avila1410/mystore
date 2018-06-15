@@ -427,7 +427,7 @@ footer
     font-weight: bold;
     text-align: right;
     order: 0;
-    align-self: flex-end;
+    align-self: flex-start;
     flex: 0 1 100%;
     padding-right: 10px;
 }
