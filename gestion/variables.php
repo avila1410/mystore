@@ -38,6 +38,7 @@
 		$articulos[$i]['caracteristicas']=mysql_result($query,$i,5);
 		
 		$articulos[$i]['img_url']=$articulo->link_img_ml;
+		$articulos[$i]['link_ml']=$articulo->link_ml;
 		
 		
 		
