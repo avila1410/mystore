@@ -81,7 +81,7 @@ echo "<div class='container centro'>";
                     //Cantidad del Artículo (Fin)
 
                     //Imagen del Artículo (Inicio)
-                    echo "<div class='imgArticulo'>";
+                    echo "<div class='imgArticulo' height='50' width='50'>";
                         echo "<img src=".$articulos[$k]['img_url'].">";
                     echo "</div>";
                     //Imagen del Artículo (Fin)
