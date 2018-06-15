@@ -82,7 +82,7 @@ echo "<div class='container centro'>";
                 
                     //Imagen del Artículo (Inicio)
                     echo "<div class='imgArticulo'>";
-                        echo "<img src=".$articulos[$k]['img_url']." height='30' width='30' class='rounded'>";
+                        echo "<img src=".$articulos[$k]['img_url']." height='45' width='45' class='rounded'>";
                     echo "</div>";
                     //Imagen del Artículo (Fin)
 
@@ -98,7 +98,7 @@ echo "<div class='container centro'>";
                             //Descripción del Artículo (Fin)
 
                             //Precio del Artículo (Inicio)
-                            echo "<div class='precioArt ml-2'> Precio: ";
+                            echo "<div class='precioArt'> Precio: ";
                                 echo $articulos[$k]['precio'];
                             echo "</div>";
                             //Precio del Artículo (Fin)
