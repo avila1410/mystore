@@ -32,6 +32,7 @@
 
 <body>
     
+    <?php include ("variables.php"); ?>
        
     <!-- Encabezado de la Pagina --> 
     <?php include ("header_reporte.php"); ?>

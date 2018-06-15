@@ -1,5 +1,7 @@
 <?php
 
+
+
 echo "<div class='container centro'>";
     echo "<form action='procesarPedido.php' method='post' class=''>";
 
@@ -7,7 +9,7 @@ echo "<div class='container centro'>";
         echo "<div class='card my-3 borde-reporte'>";
             echo "<div class='card-header text-center borde-reporte bg-reporte'>";
                 echo "<span class='tituloUbuntu text-white'>";
-                    echo "Orden #123456789012345 (Paso 1 de su Compra)";
+                    echo "Orden #".$orden_id." (Paso 1 de su Compra)";
                 echo "</span>";
             echo "</div>";
 
@@ -22,7 +24,7 @@ echo "<div class='container centro'>";
                         echo "Fecha:";
                     echo "</div>";
                     echo "<div class='descripcion-datosOrden'>";
-                        echo "13-03-2018";
+                        echo $orden_fecha;
                     echo "</div>";
                 echo "</div>";
                 // Fecha generada de la orden (Fin)
@@ -33,7 +35,7 @@ echo "<div class='container centro'>";
                         echo "Vendedor";
                     echo "</div>";
                     echo "<div class='descripcion-datosOrden'>";
-                        echo "Seguridad Intraseg, CA (VITOQUEN) ";
+                        echo $vendedor_nombre." (".$vendedor_nick.") ";
                     echo "</div>";
                 echo "</div>";
                 // Datos del Vendedor (Fin)
@@ -44,8 +46,8 @@ echo "<div class='container centro'>";
                         echo "Comprador";
                     echo "</div>";
                     echo "<div class='descripcion-datosOrden'>";
-                        echo "<span class='text-capitalize'>".$orden."</span>";
-                        echo "<span class='text-uppercase'> (mrosillo)</span>";
+                        echo "<span class='text-capitalize'>".$comprador_nombre."</span>";
+                        echo "<span class='text-uppercase'> (".comprador_nick.")</span>";
                     echo "</div>";
                 echo "</div>";
                 //Datos del Comprador (Fin)
