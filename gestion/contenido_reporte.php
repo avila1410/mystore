@@ -74,18 +74,13 @@ echo "<div class='container centro'>";
                     echo "</div>";
                     //Eliminar Artículo (Fin)
 
-                    //Cantidad del Artículo (Inicio)
-                    echo "<div class='cantArticulo'>";
-                        echo "<input type='number' name='' min='1' max='50' class='form-control form-control-sm' required='required'>";
-                    echo "</div>";
-                    //Cantidad del Artículo (Fin)
-
                     //Imagen del Artículo (Inicio)
-                    echo "<div class='imgArticulo rounded' height='30' width='30'>";
-                        echo "<img src=".$articulos[$k]['img_url'].">";
+                    echo "<div class='imgArticulo rounded'>";
+                        echo "<img src=".$articulos[$k]['img_url']." height='30' width='30'>";
                     echo "</div>";
                     //Imagen del Artículo (Fin)
 
+                    //Descripcion del Articulo (Inicio)
                     echo "<div class='descripcionArticulo'>";
                        echo "<div class='descripcion-precio'>";
                             //Descripción del Artículo (Inicio)
@@ -103,6 +98,13 @@ echo "<div class='container centro'>";
                             //Precio del Artículo (Fin)
                         echo "</div>";
                     echo "</div>";
+                    //Descripcion del Articulo (Inicio)
+                
+                    //Cantidad del Artículo (Inicio)
+                    echo "<div class='cantArticulo'>";
+                        echo "<input type='number' name='' min='1' max='50' class='form-control form-control-sm' required='required'>";
+                    echo "</div>";
+                    //Cantidad del Artículo (Fin)
                 echo "</div>";
             }
             //Mostrando la lista de los Artículos del pedido del comprador (Fin)
