@@ -54,91 +54,58 @@ echo "<div class='container centro'>";
             echo "</div>";
 
 
-            //Lista de Artículos (Inicio)
+            //Titulo Lista de Artículos (Inicio)
             echo "<div class='EncabezadotituloArticulo'>";
                 echo "Lista de Artículos";
             echo "</div>";
-            //Lista de Artículos (Fin)
+            //Titulo Lista de Artículos (Fin)
 
-            echo "<div class='listaArticulos-Orden'>";
-                //Eliminar Artículo (Fin)
-                echo "<div class='seleccionArticulo'>";
-                    echo "<a href='#' class='ml-1'>";
-                        echo "<i class='far fa-trash-alt'></i>";
-                    echo "</a>";
-                echo "</div>";
-                //Eliminar Artículo (Fin)
+            //Mostrando la lista de los Artículos del pedido del comprador (Inicio)
+            $cant = count($articulos);
 
-
-                //Cantidad del Artículo (Inicio)
-                echo "<div class='cantArticulo'>";
-                    echo "<input type='number' name='' min='1' max='50' class='form-control form-control-sm' required='required'>";
-                echo "</div>";
-                //Cantidad del Artículo (Fin)
-
-                //Imagen del Artículo (Inicio)
-                echo "<div class='imgArticulo'>";
-                    echo "<img src='../img/basemotor.jpg' width='50' height='50' class='imgArticulo'>";
-                echo "</div>";
-                //Imagen del Artículo (Fin)
-
-                echo "<div class='descripcionArticulo'>";
-                   echo "<div class='descripcion-precio'>";
-                        //Descripción del Artículo (Inicio)
-                        echo "<div class='descripcionArt'>";
-                            echo "<a href='#' class='enlaceML-Articulo'>";
-                                echo "Switch VGA 4 Puertos pasivo Nuevo de paquete 100% Original mod. 123456";
-                            echo "</a>"; 
-                        echo "</div>";
-                        //Descripción del Artículo (Fin)
-
-                        //Precio del Artículo (Inicio)
-                        echo "<div class='precioArt'> Precio: ";
-                            echo "143.220.000,89 Bs";
-                        echo "</div>";
-                        //Precio del Artículo (Fin)
+            for ($k=0;$k<$cant;$k++)
+            {
+                echo "<div class='listaArticulos-Orden'>";
+                    //Eliminar Artículo (Fin)
+                    echo "<div class='seleccionArticulo'>";
+                        echo "<a href='#' class='ml-1'>";
+                            echo "<i class='far fa-trash-alt'></i>";
+                        echo "</a>";
                     echo "</div>";
-                echo "</div>";
-            echo "</div>";
+                    //Eliminar Artículo (Fin)
 
-            echo "<div class='listaArticulos-Orden py-1'>";
-                //Eliminar Artículo (Fin)
-                echo "<div class='seleccionArticulo'>";
-                    echo "<a href='#' class='ml-1'>";
-                        echo "<i class='far fa-trash-alt'></i>";
-                    echo "</a>";
-                echo "</div>";
-                //Eliminar Artículo (Fin)
+                    //Cantidad del Artículo (Inicio)
+                    echo "<div class='cantArticulo'>";
+                        echo "<input type='number' name='' min='1' max='50' class='form-control form-control-sm' required='required'>";
+                    echo "</div>";
+                    //Cantidad del Artículo (Fin)
 
-                //Cantidad del Artículo (Inicio)
-                echo "<div class='cantArticulo'>";
-                    echo "<input type='number' name='' min='1' max='50' class='form-control form-control-sm' required='required'>";
-                echo "</div>";
-                //Cantidad del Artículo (Fin)
+                    //Imagen del Artículo (Inicio)
+                    echo "<div class='imgArticulo'>";
+                        echo $articulos[$k]['img_url'];
+                    echo "</div>";
+                    //Imagen del Artículo (Fin)
 
-                //Imagen del Artículo (Inicio)
-                echo "<div class='imgArticulo'>";
-                    echo "<img src='../img/estopera.jpg' width='50' height='50' class='imgArticulo'>";
-                echo "</div>";
-                //Imagen del Artículo (Fin)
+                    echo "<div class='descripcionArticulo'>";
+                       echo "<div class='descripcion-precio'>";
+                            //Descripción del Artículo (Inicio)
+                            echo "<div class='descripcionArt'>";
+                                echo "<a href='#' class='enlaceML-Articulo'>";
+                                    echo $articulo[$i]['articulo-titulo'];
+                                echo "</a>"; 
+                            echo "</div>";
+                            //Descripción del Artículo (Fin)
 
-                //Descripción del Artículo (Inicio)
-                echo "<div class='descripcionArticulo'>";
-                    echo "<div class='descripcion-precio'>";
-                        echo "<div class='descripcionArt'>";
-                            echo "<a href='#' class='enlaceML-Articulo'>";
-                                echo "Cámara CCTV Tipo Domo Lente 3.6mm Resolución 800 TVL";
-                            echo "</a>"; 
-                        echo "</div>";
-
-                        echo "<div class='precioArt'>Precio: ";
-                            echo "1.220.000,89 Bs";
+                            //Precio del Artículo (Inicio)
+                            echo "<div class='precioArt'> Precio: ";
+                                echo $articulos[$i]['precio'];
+                            echo "</div>";
+                            //Precio del Artículo (Fin)
                         echo "</div>";
                     echo "</div>";
                 echo "</div>";
-                //Descripción del Artículo (Fin)
-            echo "</div>";
-            //Lista de Artículos (Fin)
+            }
+            //Mostrando la lista de los Artículos del pedido del comprador (Fin)
 
             echo "<div class='iconos-reporte'>";
                 echo "<div class='opciones-reportePago'>";
