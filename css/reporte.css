@@ -225,7 +225,7 @@ footer
     justify-content:flex-start;
     align-items: flex-start;
     align-content: flex-start;
-    padding-top: 1px;
+    padding: 5px;
 }
 
 .seleccionArticulo
@@ -246,21 +246,21 @@ footer
     padding-top: 1px;
     order: 0;
     flex: 0 1 10%;
-    align-self: flex-start; 
+    align-self: center; 
 }
 
 .imgArticulo
 {
     order: 0;
     flex: 0 1 5%;
-    align-self: flex-start;
+    align-self: center;
 }
 
 .descripcionArticulo
 {
     order: 0;
     flex: 0 1 auto;
-    align-self: flex-start;
+    align-self: center;
 }
 
 .descripcion-precio
