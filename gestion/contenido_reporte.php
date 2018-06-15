@@ -383,7 +383,62 @@ echo "<div class='container centro'>";
                 //Retiro en Tienda (Inicio)
                 echo "<div class='tab-pane fade' id='retiroTienda' role='tabpanel' aria-labelledby='profile-tab'>";
                     echo "<form action='' method='get'>";
-                        echo "<div class='accordion' id='retiroTienda'>";
+                        echo "<div id='accordion'>";
+                            echo "<div class='mt-1'>";
+                                echo "<div class='custom-controls-stacked container-fluid'>";
+                                    echo "<label class='custom-control custom-radio'>";
+                                        echo "<input id='radioStacked1' name='retiroPersonal' type='radio' class='custom-control-input' required>";
+                                        echo "<span class='custom-control-indicator'></span>";
+                                        echo "<a href='#sitio1' class='enlaceML-Articulo' data-toggle='collapse' data-target='#sitio1' aria-expanded='false' aria-controls='sitio1'>"; 
+                                            echo "<span class='nomb_encomienda custom-control-description'>";
+                                                echo "C.C. Sambil Chacao";
+                                            echo "</span>";
+                                        echo "</a>";
+                                    echo "</label>";
+                                echo "</div>";
+
+                                echo "<div id='sitio1' class='collapse' aria-labelledby='headingTwo' data-parent='#accordion'>";
+                                    echo "<div class='p-0 m-2'>";
+                                        echo "<div class='card'>";
+                                            echo "<span class='obs_encomienda'>";
+                                                echo "Los envíos por ZOOM son asegurados obligatoriamente.";
+                                                echo "El franqueo postal por este servicio es por un valor de 120.000 Bs para mercancías con un peso menor a 500 gramos, de lo contrario se debe cancelar un monto de 150.000 Bs por el costo de la bolsa de seguridad.";
+                                            echo "</span>";
+                                        echo "</div>";
+                                    echo "</div>";
+                                echo "</div>";
+                            echo "</div>";
+
+                            echo "<div class='mt-1'>";
+                                echo "<div class='custom-controls-stacked container-fluid'>";
+                                    echo "<label class='custom-control custom-radio'>";
+                                        echo "<input id='radioStacked1' name='retiroPersonal' type='radio' class='custom-control-input' required>";
+                                        echo "<span class='custom-control-indicator'></span>";
+                                        echo "<a href='#sitio2' class='enlaceML-Articulo' data-toggle='collapse' data-target='#sitio2' aria-expanded='false' aria-controls='sitio2'>"; 
+                                            echo "<span class='nomb_encomienda custom-control-description'>";
+                                                echo "C.C. Plaza Las Americas (Nivel PB)";
+                                            echo "</span>";
+                                        echo "</a>";
+                                    echo "</label>";
+                                echo "</div>";
+
+                                echo "<div id='sitio2' class='collapse' aria-labelledby='headingTwo' data-parent='#accordion'>";
+                                    echo "<div class='card p-0 m-2'>";
+                                        echo "<div class='card'>";
+                                            echo "<span class='obs_encomienda'>";
+                                                echo "El seguro del envío es opcional. ";
+                                                echo "El franqueo postal por este servicio es por un valor de 52.190 Bs para mercancías con un peso menor a 500 gramos, de lo contrario se debe cancelar un monto de 86.350 Bs por el costo de la bolsa de seguridad.";
+                                            echo "</span>";
+                                        echo "</div>";
+                                    echo "</div>";
+                                echo "</div>";
+                            echo "</div>";             
+                        echo "</div>";
+
+
+
+
+                        /*echo "<div class='accordion' id='retiroTienda'>";
                             echo "<div class=''>";
                                 echo "<div class='' id='headingOne'>";
                                     echo "<h5 class='mb-0'>";
@@ -418,7 +473,7 @@ echo "<div class='container centro'>";
                                         echo "Horarios: Lunes a Sabado 10:00AM a 8:00PM Domingos: 12:00PM a 8:00PM";
                                     echo "</div>";
                                 echo "</div>";
-                            echo "</div>";
+                            echo "</div>";*/
                      echo "</form>";
                 echo "</div>";
                 //Retiro en Tienda (Fin)
