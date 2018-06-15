@@ -1,7 +1,5 @@
 <?php
 
-include ("noOrden.php");
-
 echo "<div class='container centro'>";
     echo "<form action='procesarPedido.php' method='post' class=''>";
 
