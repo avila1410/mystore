@@ -1,5 +1,7 @@
 <?php
 
+include ("noOrden.php");
+
 echo "<div class='container centro'>";
     echo "<form action='procesarPedido.php' method='post' class=''>";
 
@@ -44,12 +46,13 @@ echo "<div class='container centro'>";
                         echo "Comprador";
                     echo "</div>";
                     echo "<div class='descripcion-datosOrden'>";
-                        echo "<span class='text-capitalize'>marlon rosillo</span>";
+                        echo "<span class='text-capitalize'>".$orden."</span>";
                         echo "<span class='text-uppercase'> (mrosillo)</span>";
                     echo "</div>";
                 echo "</div>";
                 //Datos del Comprador (Fin)
             echo "</div>";
+
 
             //Lista de Artículos (Inicio)
             echo "<div class='EncabezadotituloArticulo'>";
@@ -380,7 +383,7 @@ echo "<div class='container centro'>";
                 //Retiro en Tienda (Inicio)
                 echo "<div class='tab-pane fade' id='retiroTienda' role='tabpanel' aria-labelledby='profile-tab'>";
                     echo "<form action='' method='get'>";
-                        echo "<div class='accordion' id='accordionExample'>";
+                        echo "<div class='accordion' id='retiroTienda'>";
                             echo "<div class=''>";
                                 echo "<div class='' id='headingOne'>";
                                     echo "<h5 class='mb-0'>";
@@ -419,6 +422,7 @@ echo "<div class='container centro'>";
                      echo "</form>";
                 echo "</div>";
                 //Retiro en Tienda (Fin)
+            echo "</div>";
         echo "</div>";
             
     

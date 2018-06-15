@@ -1,6 +1,7 @@
-<?
-	include "variables.php"	
+<?php
+	include ("variables.php");
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
