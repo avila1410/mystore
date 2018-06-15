@@ -401,8 +401,9 @@ echo "<div class='container centro'>";
                                     echo "<div class='p-0 m-2'>";
                                         echo "<div class='card'>";
                                             echo "<span class='obs_encomienda'>";
-                                                echo "Los envíos por ZOOM son asegurados obligatoriamente.";
-                                                echo "El franqueo postal por este servicio es por un valor de 120.000 Bs para mercancías con un peso menor a 500 gramos, de lo contrario se debe cancelar un monto de 150.000 Bs por el costo de la bolsa de seguridad.";
+                                                echo "Dirección: Av. Libertador con calle Los Angeles. Nivel Acuario. Local AC-R5. (A dos locales de la Timberland Sambil) Chacao.";
+                                                echo "Teléfonos: 0212-264.82.65 // 0212-2648267 // 0414-268.66.78.";
+                                                echo "Horarios: Lunes a Sabado 10:00AM a 8:00PM Domingos: 12:00PM a 8:00PM";
                                             echo "</span>";
                                         echo "</div>";
                                     echo "</div>";
@@ -426,8 +427,9 @@ echo "<div class='container centro'>";
                                     echo "<div class='card p-0 m-2'>";
                                         echo "<div class='card'>";
                                             echo "<span class='obs_encomienda'>";
-                                                echo "El seguro del envío es opcional. ";
-                                                echo "El franqueo postal por este servicio es por un valor de 52.190 Bs para mercancías con un peso menor a 500 gramos, de lo contrario se debe cancelar un monto de 86.350 Bs por el costo de la bolsa de seguridad.";
+                                                echo "Dirección: Av. Libertador con calle Los Angeles. Nivel Acuario. Local AC-R5. (A dos locales de la Timberland Sambil) Chacao";
+                                                echo "Teléfonos: 0212-264.82.65 // 0212-2648267 // 0414-268.66.78";
+                                                echo "Horarios: Lunes a Sabado 10:00AM a 8:00PM Domingos: 12:00PM a 8:00PM";
                                             echo "</span>";
                                         echo "</div>";
                                     echo "</div>";
@@ -436,44 +438,6 @@ echo "<div class='container centro'>";
                         echo "</div>";
 
 
-
-
-                        /*echo "<div class='accordion' id='retiroTienda'>";
-                            echo "<div class=''>";
-                                echo "<div class='' id='headingOne'>";
-                                    echo "<h5 class='mb-0'>";
-                                        echo "<button class='btn btn-link' type='button' data-toggle='collapse' data-target='#collapseOne' aria-expanded='true' aria-controls='collapseOne'>";
-                                            echo "C.C. Sambil Chacao";
-                                        echo "</button>";
-                                    echo "</h5>";
-                                echo "</div>";
-
-                                echo "<div id='collapseOne' class='collapse show' aria-labelledby='headingOne' data-parent='#accordionExample'>";
-                                    echo "<div class='card-body'>";
-                                        echo "Dirección: Av. Libertador con calle Los Angeles. Nivel Acuario. Local AC-R5. (A dos locales de la Timberland Sambil) Chacao";
-                                        echo "Teléfonos: 0212-264.82.65 // 0212-2648267 // 0414-268.66.78";
-                                        echo "Horarios: Lunes a Sabado 10:00AM a 8:00PM Domingos: 12:00PM a 8:00PM";
-                                    echo "</div>";
-                                echo "</div>";
-                            echo "</div>";
-
-                            echo "<div class=''>";
-                                echo "<div class='' id='headingTwo'>";
-                                    echo "<h5 class='mb-0'>";
-                                        echo "<button class='btn btn-link collapsed' type='button' data-toggle='collapse' data-target='#collapseTwo' aria-expanded='false' aria-controls='collapseTwo'>";
-                                          echo "C.C. Plaza Las Americas (Nivel PB)";
-                                        echo "</button>";
-                                    echo "</h5>";
-                                echo "</div>";
-
-                                echo "<div id='collapseTwo' class='collapse' aria-labelledby='headingTwo' data-parent='#accordionExample'>";
-                                    echo "<div class='card-body'>";
-                                        echo "Dirección: Av. Libertador con calle Los Angeles. Nivel Acuario. Local AC-R5. (A dos locales de la Timberland Sambil) Chacao";
-                                        echo "Teléfonos: 0212-264.82.65 // 0212-2648267 // 0414-268.66.78";
-                                        echo "Horarios: Lunes a Sabado 10:00AM a 8:00PM Domingos: 12:00PM a 8:00PM";
-                                    echo "</div>";
-                                echo "</div>";
-                            echo "</div>";*/
                      echo "</form>";
                 echo "</div>";
                 //Retiro en Tienda (Fin)
