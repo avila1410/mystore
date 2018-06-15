@@ -3,7 +3,7 @@
 	include_once "../lib/clases.php";
 
 	$util=new Util;
-	$id_orden=$util->obtenerIdOrdenDeHash($hash);	
+	$id_orden=$util->obtenerIdOrdenDeHash($_GET['orden']);	
 	
 		
 	$orden=new Orden($id_orden);
@@ -18,6 +18,11 @@
 	
 	$vendedor_nombre=$vendedor->nombre;
 	$vendedor_nick=$vendedor->nick;
+	
+	$comprador=new Comprador($orden->id_comprador);
+	
+	$comprador_nombre=$comprador->nombre;
+	$comprador_nick=$comprador->nick_ml;
 	
 	
 	
