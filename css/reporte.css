@@ -254,6 +254,7 @@ footer
     order: 0;
     flex: 0 1 10%;
     align-self: flex-start;
+    border: 1px solid black;
 }
 
 .descripcionArticulo
@@ -268,7 +269,7 @@ footer
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     align-content: flex-start;
 }
