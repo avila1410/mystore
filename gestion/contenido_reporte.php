@@ -87,7 +87,7 @@ echo "<div class='container centro'>";
                     //Imagen del Artículo (Fin)
 
                     //Descripcion del Articulo (Inicio)
-                    echo "<div class='descripcionArticulo'>";
+                    echo "<div class='descripcionArticulo ml-2'>";
                        echo "<div class='descripcion-precio'>";
                             //Descripción del Artículo (Inicio)
                             echo "<div class='descripcionArt'>";

@@ -235,7 +235,7 @@ footer
     text-align: center;
     order: 0;
     flex: 0 1 5%;
-    align-self: flex-start;
+    align-self: center;
 }
 
 .cantArticulo
@@ -254,7 +254,6 @@ footer
     order: 0;
     flex: 0 1 5%;
     align-self: flex-start;
-    border: 1px solid black;
 }
 
 .descripcionArticulo
