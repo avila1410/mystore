@@ -91,7 +91,7 @@ echo "<div class='container centro'>";
                             //Descripción del Artículo (Inicio)
                             echo "<div class='descripcionArt'>";
                                 echo "<a href='#' class='enlaceML-Articulo'>";
-                                    echo $articulos[$k]['articulo-titulo'];
+                                    echo $articulos[$k]['articulo_titulo'];
                                 echo "</a>"; 
                             echo "</div>";
                             //Descripción del Artículo (Fin)
