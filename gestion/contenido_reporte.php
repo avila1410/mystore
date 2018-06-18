@@ -3,7 +3,7 @@
 
 
 echo "<div class='container centro'>";
-    echo "<form action='procesarPedido.php' method='post' class=''>";
+    
 
         //Datos de la Orden y Lista de Artículos (Inicio)
         echo "<div class='card my-3 borde-reporte'>";
@@ -58,11 +58,16 @@ echo "<div class='container centro'>";
             echo "<div class='EncabezadotituloArticulo'>";
                 echo "Lista de Artículos";
             echo "</div>";
-            //Titulo Lista de Artículos (Fin)
-
-           include_once "articulosLista.php";
+           
+		    //Titulo Lista de Artículos (Fin)
+			echo "<form id='forma_lista_articulos' action='ordenActualizar.php?id_orden=".$orden_id."' target='iframe_upload' method='post' class=''>";
+           		echo "<div id='contenido_lista_articulos'>";
+					include_once "articulosLista.php";
+		   		echo "</div>";
+			echo "</form>";
 		   
-            echo "<div class='iconos-reporte'>";
+           
+		    echo "<div class='iconos-reporte'>";
                 echo "<div class='opciones-reportePago'>";
                     echo "<button type='button' class='btn btn-info btn-reporte' data-toggle='modal' data-target='#listaProductos'>";
                         echo "<i class='fas fa-cart-arrow-down mr-2'></i>";
@@ -200,7 +205,7 @@ echo "<div class='container centro'>";
                                     echo "<div class='opciones-reportePago'>";
                                         echo "<button type='button' class='btn btn-info btn-reporte' data-toggle='modal' data-target='#listaProductos'>";
                                             echo "<i class='fas fa-cart-arrow-down mr-2'></i>";
-                                            echo "<span>Agregar Artículo</span>";
+                                            echo "<span>Agregar artículo</span>";
                                         echo "</button>";
                                     echo "</div>";
                                 echo "</div>";
@@ -210,9 +215,9 @@ echo "<div class='container centro'>";
                 echo "</div>";
 
                 echo "<div class='opciones-reportePago'>";
-                    echo "<button type='button' class='btn btn-info btn-reporte'>";
+                    echo "<button type='button' class='btn btn-info btn-reporte' onclick='actualizarOrden()' >";
                         echo "<i class='fas fa-sync-alt mr-2'></i>";
-                        echo "<span>Actualizar Orden</span>";
+                        echo "<span>Actualizar orden</span>";
                     echo "</button>";
                 echo "</div>";
             echo "</div>";
@@ -220,7 +225,7 @@ echo "<div class='container centro'>";
 
             //Métodos de envío (Inicio)
             echo "<div class='EncabezadotituloArticulo mt-2'>";
-                echo "Seleccione la Forma de Entrega";
+                echo "Seleccione la forma de entrega";
             echo "</div>";
             
             echo "<div class='card-header'>";
@@ -370,7 +375,7 @@ echo "<div class='container centro'>";
             echo "<i class='fas fa-arrow-circle-right mr-2'></i>";
             echo "<span class=''>Siguiente</span>";
         echo "</button>";
-    echo "</form>";
+    
 echo "</div>";
 
 

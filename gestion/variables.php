@@ -31,6 +31,7 @@
 	{
 		$articulo=new Articulo(mysql_result($query,$i,1));
 		
+		$articulos[$i]['articulo_id']=$articulo->id;
 		$articulos[$i]['articulo_titulo']=$articulo->titulo;
 		$articulos[$i]['precio']=number_format(mysql_result($query,$i,2),2,',','.');
 		$articulos[$i]['cantidad']=mysql_result($query,$i,3);
