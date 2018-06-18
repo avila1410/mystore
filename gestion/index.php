@@ -41,8 +41,8 @@
         <?php include ("contenido_reporte.php"); ?>
     </section>
     
-    <footer class="footer">
-        <?php include ("footer_reporte.php"); ?>
+     <!--<footer class="footer">
+        <?php //include ("footer_reporte.php"); ?>
     </footer>
     
     <!-- Bootstrap core JavaScript -->

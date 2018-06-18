@@ -37,8 +37,14 @@
 		$articulos[$i]['tipo']=mysql_result($query,$i,4);
 		$articulos[$i]['caracteristicas']=mysql_result($query,$i,5);
 		
-		$articulos[$i]['img_url']=$articulo->link_img_ml;
+		
 		$articulos[$i]['link_ml']=$articulo->link_ml;
+		
+		
+		if (file_exists("../art_img/".$articulo->id))
+			$articulos[$i]['img_url']="../art_img/".$articulo->id."_muestra";
+		else
+			$articulos[$i]['img_url']=$articulo->link_img_ml;
 		
 		
 		
