@@ -378,5 +378,29 @@ echo "<div class='container centro'>";
     
 echo "</div>";
 
+// Mensaje para eliminar Articulo (Inicio)
+echo "<div class='modal fade' id='eliminarArticulo' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>";
+    echo "<div class='modal-dialog' role='document'>";
+        echo "<div class='modal-content'>";
+            echo "<div class='modal-header'>";
+                echo "<button type='button' class='close' data-dismiss='modal' aria-label='Close'>";
+                echo "<span aria-hidden='true'>&times;</span>";
+                echo "</button>";
+            echo "</div>";
+
+            echo "<div class='modal-body'>";
+                echo "Está seguro de eliminar el Artículo seleccionado???";
+            echo "/div>";
+
+            echo "<div class='modal-footer'>";
+                echo "<button type='button' class='btn btn-light' data-dismiss='modal'>Close</button>";
+                echo "<button type='button' class='btn btn-danger'>Eliminar Artículo</button>";
+            echo "</div>";
+        echo "</div>";
+    echo "</div>";
+echo "</div>";
+// Mensaje para eliminar Articulo (Fin) 
+
+
 
     ?>
