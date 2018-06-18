@@ -43,9 +43,9 @@
                 echo "<div class='listaArticulos-Orden'>";
                     //Eliminar Artículo (Fin)
                     echo "<div class='seleccionArticulo'>";
-                        echo "<a href='javascript:articuloEliminar(".$articulos[$k]['articulo_id'].")' class='ml-1'>";
-                            echo "<i class='far fa-trash-alt'></i>";
-                        echo "</a>";
+                        //echo "<a href='javascript:articuloEliminar(".$articulos[$k]['articulo_id'].")' class='ml-1'>";
+                            //echo "<i class='far fa-trash-alt'></i>";
+                        //echo "</a>";
                 
                         echo "<a href='' class='text-danger ml-1' data-toogle='modal' data-target='#eliminarArticulo' >";
                             echo "<i class='far fa-trash-alt'></i>";
